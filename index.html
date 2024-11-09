@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-index.css">
     <title>Rock, Paper & Scissors</title>
 </head>
 <body>
+    <div class="header">
+        <h1>Rock, Paper & Scissors</h1>
+        <a class="reset">Reset Game</a>
+    </div>
+
+    <div class="selectors">
+        <div class="choice-container">
+            <div class="humanchoice">
+                <a id="rock">✊</a>
+                <a id="paper">✋</a>
+                <a id="scissors">✌️</a>
+            </div>
     
+            <div class="computerchoice">
+                <a id="computer"></a>
+                <div class="choice-display">🤖</div>
+            </div>
+    </div>   
+    
+    <div class="infogame">
+        <div class="result"></div>
+        <div class="score"></div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>

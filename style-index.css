@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f5a9;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #4b9cd3;
+    color: #ffffff;
+    padding: 1rem 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.header a {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #4b9cd3;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.header a:hover {
+    background-color: #f4f4f9;
+    transform: scale(1.05);
+}
+
+.choice-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.selectors .computerchoice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20rem;
+    gap: 1vw;
+    width: 5.208vw;
+    height: 5.208vw;
+}
+
+.selectors .computerchoice .choice-display {
+    font-size: 6vw;
+    height: 100%;
+}
+
+.selectors .humanchoice {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-top: 3rem;
+    margin-left: 20rem;
+}
+
+.selectors .humanchoice a, .selectors .computerchoice a {
+    padding: 1.2rem 4rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #333;
+    background-color: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.selectors .humanchoice a:hover {
+    background-color: #edf2f7;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.infogame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto;
+    padding: 2rem;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-weight: 900;
+}
